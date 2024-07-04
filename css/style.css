@@ -504,6 +504,22 @@ Ensure the default browser behavior of the `hidden` attribute.
   bottom: 1rem;
 }
 
+.left-auto {
+  left: auto;
+}
+
+.bottom-1\/2 {
+  bottom: 50%;
+}
+
+.top-1\/2 {
+  top: 50%;
+}
+
+.left-1\/2 {
+  left: 50%;
+}
+
 .z-10 {
   z-index: 10;
 }
@@ -520,6 +536,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   margin: 2.5rem;
 }
 
+.m-auto {
+  margin: auto;
+}
+
 .mx-auto {
   margin-left: auto;
   margin-right: auto;
@@ -528,6 +548,11 @@ Ensure the default browser behavior of the `hidden` attribute.
 .mx-24 {
   margin-left: 6rem;
   margin-right: 6rem;
+}
+
+.my-auto {
+  margin-top: auto;
+  margin-bottom: auto;
 }
 
 .mt-48 {
@@ -972,12 +997,32 @@ Ensure the default browser behavior of the `hidden` attribute.
 }
 
 @media (min-width: 321px) {
+  .xs\:absolute {
+    position: absolute;
+  }
+
+  .xs\:bottom-4 {
+    bottom: 1rem;
+  }
+
+  .xs\:left-6 {
+    left: 1.5rem;
+  }
+
+  .xs\:max-w-\[150px\] {
+    max-width: 150px;
+  }
+
   .xs\:text-center {
     text-align: center;
   }
 }
 
 @media (min-width: 576px) {
+  .sm\:absolute {
+    position: absolute;
+  }
+
   .sm\:bg-hero-image-desktop {
     background-image: url('/images/desktop/image-hero.jpg');
   }
