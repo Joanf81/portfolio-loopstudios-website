@@ -1,7 +1,7 @@
 {
-  "name": "simple-tailwind-starter",
+  "name": "loopstudios-website",
   "version": "1.0.0",
-  "description": "Simple file structure for Tailwind projects",
+  "description": "Simple website for a VR company called Loopstudios. Using Tailwindcss.",
   "main": "index.js",
   "scripts": {
     "watch": "tailwindcss -i ./input.css -o ./css/style.css --watch",
