@@ -468,10 +468,6 @@ Ensure the default browser behavior of the `hidden` attribute.
   --tw-backdrop-sepia:  ;
 }
 
-.absolute {
-  position: absolute;
-}
-
 .relative {
   position: relative;
 }
@@ -484,20 +480,8 @@ Ensure the default browser behavior of the `hidden` attribute.
   right: 0px;
 }
 
-.m-2 {
-  margin: 0.5rem;
-}
-
-.m-4 {
-  margin: 1rem;
-}
-
-.m-5 {
-  margin: 1.25rem;
-}
-
-.m-20 {
-  margin: 5rem;
+.m-6 {
+  margin: 1.5rem;
 }
 
 .m-10 {
@@ -514,36 +498,12 @@ Ensure the default browser behavior of the `hidden` attribute.
   margin-right: 6rem;
 }
 
-.mt-56 {
-  margin-top: 14rem;
-}
-
-.ml-40 {
-  margin-left: 10rem;
-}
-
 .mt-48 {
   margin-top: 12rem;
 }
 
-.mt-52 {
-  margin-top: 13rem;
-}
-
-.ml-8 {
-  margin-left: 2rem;
-}
-
-.mt-24 {
-  margin-top: 6rem;
-}
-
 .mt-32 {
   margin-top: 8rem;
-}
-
-.mt-4 {
-  margin-top: 1rem;
 }
 
 .mt-5 {
@@ -558,14 +518,6 @@ Ensure the default browser behavior of the `hidden` attribute.
   height: 500px;
 }
 
-.h-3\/4 {
-  height: 75%;
-}
-
-.h-2\/3 {
-  height: 66.666667%;
-}
-
 .h-3\/5 {
   height: 60%;
 }
@@ -578,28 +530,12 @@ Ensure the default browser behavior of the `hidden` attribute.
   width: 100%;
 }
 
-.max-w-lg {
-  max-width: 32rem;
-}
-
-.max-w-xl {
-  max-width: 36rem;
-}
-
-.max-w-\[1156px\] {
-  max-width: 1156px;
-}
-
-.max-w-5xl {
-  max-width: 64rem;
-}
-
 .max-w-6xl {
   max-width: 72rem;
 }
 
-.max-w-sm {
-  max-width: 24rem;
+.max-w-lg {
+  max-width: 32rem;
 }
 
 .max-w-md {
@@ -614,30 +550,8 @@ Ensure the default browser behavior of the `hidden` attribute.
   align-items: center;
 }
 
-.justify-center {
-  justify-content: center;
-}
-
 .border-2 {
   border-width: 2px;
-}
-
-.border {
-  border-width: 1px;
-}
-
-.border-4 {
-  border-width: 4px;
-}
-
-.border-white {
-  --tw-border-opacity: 1;
-  border-color: rgb(255 255 255 / var(--tw-border-opacity));
-}
-
-.border-black {
-  --tw-border-opacity: 1;
-  border-color: rgb(0 0 0 / var(--tw-border-opacity));
 }
 
 .bg-white {
@@ -665,39 +579,43 @@ Ensure the default browser behavior of the `hidden` attribute.
   padding: 1rem;
 }
 
-.p-5 {
-  padding: 1.25rem;
+.p-16 {
+  padding: 4rem;
 }
 
-.p-12 {
-  padding: 3rem;
+.p-6 {
+  padding: 1.5rem;
 }
 
-.p-24 {
-  padding: 6rem;
+.px-5 {
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
 }
 
-.p-20 {
-  padding: 5rem;
+.px-10 {
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
+}
+
+.pt-10 {
+  padding-top: 2.5rem;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.text-center {
+  text-align: center;
 }
 
 .font-sans {
   font-family: Josefin Sans, sans-serif;
 }
 
-.text-3xl {
-  font-size: 1.875rem;
-  line-height: 2.25rem;
-}
-
 .text-4xl {
   font-size: 2.25rem;
   line-height: 2.5rem;
-}
-
-.text-5xl {
-  font-size: 3rem;
-  line-height: 1;
 }
 
 .uppercase {
@@ -714,11 +632,13 @@ Ensure the default browser behavior of the `hidden` attribute.
   color: rgb(0 0 0 / var(--tw-text-opacity));
 }
 
-@media (min-width: 576px) {
-  .sm\:h-\[650px\] {
-    height: 650px;
+@media (min-width: 321px) {
+  .xs\:text-center {
+    text-align: center;
   }
+}
 
+@media (min-width: 576px) {
   .sm\:bg-hero-image-desktop {
     background-image: url('/images/desktop/image-hero.jpg');
   }
@@ -726,35 +646,72 @@ Ensure the default browser behavior of the `hidden` attribute.
   .sm\:bg-left {
     background-position: left;
   }
-}
 
-@media (min-width: 769px) {
-  .md\:mt-56 {
-    margin-top: 14rem;
+  .sm\:text-left {
+    text-align: left;
   }
 
-  .md\:ml-40 {
-    margin-left: 10rem;
+  .sm\:text-6xl {
+    font-size: 3.75rem;
+    line-height: 1;
+  }
+
+  .sm\:text-5xl {
+    font-size: 3rem;
+    line-height: 1;
+  }
+}
+
+@media (min-width: 768px) {
+  .md\:absolute {
+    position: absolute;
+  }
+
+  .md\:m-10 {
+    margin: 2.5rem;
+  }
+
+  .md\:mt-56 {
+    margin-top: 14rem;
   }
 
   .md\:h-\[650px\] {
     height: 650px;
   }
 
-  .md\:bg-hero-image-desktop {
-    background-image: url('/images/desktop/image-hero.jpg');
+  .md\:h-3\/5 {
+    height: 60%;
   }
 
-  .md\:bg-left {
-    background-position: left;
-  }
-
-  .md\:bg-top {
-    background-position: top;
+  .md\:bg-left-top {
+    background-position: left top;
   }
 
   .md\:p-10 {
     padding: 2.5rem;
+  }
+
+  .md\:p-16 {
+    padding: 4rem;
+  }
+
+  .md\:px-5 {
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+  }
+
+  .md\:px-0 {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+
+  .md\:text-left {
+    text-align: left;
+  }
+
+  .md\:text-5xl {
+    font-size: 3rem;
+    line-height: 1;
   }
 
   .md\:text-6xl {

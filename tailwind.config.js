@@ -2,8 +2,9 @@ module.exports = {
   content: ['./*.html'],
   theme: {
     screens: {
+      'xs': '321px',
       'sm': '576px',
-      'md': '769px'
+      'md': '768px'
     },
     extend: {
       fontFamily: {
