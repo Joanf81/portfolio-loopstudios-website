@@ -14,7 +14,10 @@ module.exports = {
       backgroundImage: {
         'hero-image-desktop': "url('/images/desktop/image-hero.jpg')",
         'hero-image-mobile': "url('/images/mobile/image-hero.jpg')"
-      }
+      },
+      letterSpacing: {
+        widest: '.3em',
+      },
     },
   },
   plugins: [],
