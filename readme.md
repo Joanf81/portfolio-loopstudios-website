@@ -1,32 +1,15 @@
-# Simple Tailwind CSS Starter
+# Loopstudios website landing page
 
-This is an extremley simple setup to develop Tailwind projects. This will be used in my Tailwind From Scratch course.
+Simple landing page for a VR company called Loopstudios.
 
-## Usage
+## Technologies
 
-Install dependencies
+HTML + TailwindCSS
 
-```
-npm install
-```
+## Visit
 
-Run Tailwind CLI in watch mode
+You can visit the example page on: https://joan-loopstudios.netlify.app/
 
-```
-npm run dev
-```
+## Preview
 
-You can use tailwind classes in any .html files in the root directory
-
-Put any custom CSS that you may have in the **src/input.css** file
-
-Add any config values to the **tailwind.config.js** file
-
-To build once, run
-
-```
-npm run build
-```
-
-You only need to deploy your html files and css/style.css
-# portfolio-loopstudios-website
+![screencapture-127-0-0-1-5500-index-html-2024-07-06-09_57_19](https://github.com/Joanf81/portfolio-loopstudios-website/assets/12248423/d5c7ca35-dce6-4714-9c1e-befa35202f86)
